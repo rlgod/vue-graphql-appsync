@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Tasks from '@/components/Tasks'
+import LightBulb from '@/components/LightBulb'
+import Controls from '@/components/Controls'
 
 Vue.use(Router)
 
@@ -8,8 +9,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Tasks',
-      component: Tasks
+      name: 'LightBulb',
+      component: LightBulb
+    },
+    {
+      path: '/controls',
+      name: 'Controls',
+      component: Controls
     }
   ]
 })
