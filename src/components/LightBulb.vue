@@ -61,14 +61,7 @@ h1 {
 }
 
 .frame {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
-	overflow: hidden;
+  width: 100%;
   color: #333;
 }
 
